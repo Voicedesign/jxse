@@ -1,0 +1,14 @@
+language: java
+jdk:
+  - oraclejdk6
+  - openjdk6
+  - oraclejdk5
+  - openjdk5
+branches:
+  only:
+    - master
+    - condast
+    - mindarchitect
+before_install: 'mvn -version'
+install: 'mvn clean install -DskipTests'
+
