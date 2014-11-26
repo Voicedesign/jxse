@@ -1,9 +1,9 @@
 language: java
 jdk:
-  - oraclejdk6
   - openjdk6
-  - oraclejdk5
-  - openjdk5
+  - oraclejdk7
+  - openjdk7
+  - oraclejdk8
 branches:
   only:
     - master
